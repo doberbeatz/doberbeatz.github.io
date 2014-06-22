@@ -1,0 +1,212 @@
+@font-face {
+	font-family: 'Book Antiqua';
+	src: url('../font/book_antiqua.eot');
+	src: url('../font/book_antiqua.eot?#iefix') format('embedded-opentype'),
+		url('../font/book_antiqua.svg#Book Antiqua') format('svg'),
+		url('../font/book_antiqua.woff') format('woff'),
+		url('../font/book_antiqua.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body, html {
+	position: relative;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	color: #000000;
+	border: none;
+}
+body {
+	font: 15px/1.4 "Book Antiqua", "Palatino Linotype", Palatino, serif;
+}
+a {
+	outline: none;
+}
+h3 {
+	margin: 0;
+	font-size: 25px;
+	line-height: 30px;
+	float: none;
+}
+img {
+	border: none;
+}
+
+.page {
+	width: 1000px;
+	position: relative;
+	margin: 0px auto;
+	display: block;
+	background: none repeat scroll 0% 0% #FFF;
+	height: 100%;
+}
+.wrap {
+	position: relative;
+	padding: 0px 0px;
+	margin-bottom: 100px;
+	min-height: 100%;
+}
+/***************************************
+* HEADER
+****************************************/
+.header	{
+	height: 200px;
+	display: block;
+}
+
+	.header_wrap {
+		height: 100px;
+		padding: 10px 20px;
+		position: relative;
+		zoom:1;
+	}
+	.header .logo {
+		margin: 10px 0 0;
+		text-decoration: none;
+		color: #000000;
+		display: inline-block;
+		height: 79px;
+	}
+	.social_buttons {
+		list-style: none outside none;
+		display: inline-block;
+		position: absolute;
+		bottom: 0;
+		right: 20px;
+		margin-bottom: 10px;
+	}
+		.social_buttons li {
+			float: left;
+			margin-left: 13px;
+		}
+		.social_buttons .fb {
+			float: left;
+			height: 48px;
+			width: 48px;
+			background: url(../images/icons.png) 0 0;
+		}	
+		.social_buttons .tt {
+			float: left;
+			height: 48px;
+			width: 48px;
+			background: url(../images/icons.png) 50px 0;
+		}
+	.menu-wrapper {
+		width: 100%;
+		border-collapse: collapse; 
+		border-spacing: 0px;
+	}
+		.menu td {
+			padding: 0;
+			float: none;
+		}
+		.menu a {
+			display: block;
+			color: #a1a1a1;
+			font-size: 30px;
+			text-transform: uppercase;
+			text-align: center;
+			text-decoration: none;
+			border-top: 2px #000 solid;
+			border-bottom: 2px #000 solid;
+		}
+		.menu a:hover {
+			background-color: #da5c00;
+			color: #ffffff;
+			border-top: 2px #da5c00 solid;
+			border-bottom: 2px #da5c00 solid;
+		}
+		.menu .selected {
+			background-color: #da5c00;
+			color: #ffffff;
+			border-top: 2px #da5c00 solid;
+			border-bottom: 2px #da5c00 solid;
+		}
+/* END HEADER */
+
+/***************************************
+* CONTENT
+****************************************/
+.banners-wrapper {
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+
+	.jcarousel {
+		width: 660px;
+		display: inline-block;
+		float: left;
+		margin-right: 40px;
+		position: relative;
+		overflow: hidden;
+	}
+	.jcarousel ul {
+		position: relative;
+		float: left;
+		display: inline-block;
+		list-style: none outside none;
+		margin: 0;
+		padding: 0;
+	}
+	.jcarousel ul li {
+		display: inline-block;
+		list-style: none outside none;
+		float: left;
+	}
+
+	.jcarousel p {
+		display: inline-block;
+	}
+
+.container {
+	overflow: hidden;
+	width: 1000px;
+}
+	.content {
+		display: block;
+		text-align: center;
+		overflow: hidden;
+	}
+	.content ul {
+		list-style: none outside none;
+		margin: 0 0 0 -50px;
+		padding: 0;
+		overflow: hidden;
+	}
+	.content li {
+		float: left;
+		margin: 0 0 50px 50px;
+		display: inline-block;
+	}
+	.content li a {
+		display: block;
+		background-color: #000;
+		width: 280px;
+		height: 280px;
+		border: 10px #da5c00 solid;
+		border-radius: 50%;
+		overflow: hidden;
+	}
+	.content .author-head {
+		line-height: 50px;
+		font-size: 25px;
+	}
+
+	.post-stats {
+		line-height: 25px;
+		background-color: #da5c00;
+		color: #fff;
+	}
+
+/* END CONTENT */
+
+/***************************************
+* FOOTER
+****************************************/
+.footer {
+	margin-top: 100px;
+	position: relative;
+	width: 1000px;
+	height: 100px;
+}
