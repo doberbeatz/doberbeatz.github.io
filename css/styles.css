@@ -130,33 +130,46 @@ img {
 ****************************************/
 .banners-wrapper {
 	margin-bottom: 40px;
-	overflow: hidden;
+	position: relative;
+	height: 430px;
+	overflow-y: hidden;
+
 }
 
 	.jcarousel {
 		width: 660px;
-		display: inline-block;
-		float: left;
 		margin-right: 40px;
 		position: relative;
 		overflow: hidden;
-	}
-	.jcarousel ul {
-		position: relative;
-		float: left;
-		display: inline-block;
-		list-style: none outside none;
-		margin: 0;
-		padding: 0;
-	}
-	.jcarousel ul li {
-		display: inline-block;
-		list-style: none outside none;
 		float: left;
 	}
+		.jcarousel ul {
+			width: 20000em;
+			position: relative;
+			float: left;
+			display: inline-block;
+			list-style: none outside none;
+			margin: 0;
+			padding: 0;
+		}
+		.jcarousel ul li {
+			float: left;
+			width: 660px;
+		}
+		.jcarousel p {
+			display: inline-block;
+		}
+		.jcarousel-prev {
+			position: absolute;
+			top: 50px; left: 10px;
+		}
+		.jcarousel-next {
+			position: absolute;
+			top:50px; left: 610px;
+		}
 
-	.jcarousel p {
-		display: inline-block;
+	.jcarousel img {
+		clear: both;
 	}
 
 .container {
