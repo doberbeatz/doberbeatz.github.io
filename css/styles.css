@@ -129,7 +129,7 @@ img {
 * CONTENT
 ****************************************/
 .banners-wrapper {
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 	position: relative;
 	height: 430px;
 	overflow-y: hidden;
@@ -137,8 +137,8 @@ img {
 }
 
 	.jcarousel {
-		width: 660px;
-		margin-right: 40px;
+		width: 650px;
+		margin-right: 50px;
 		position: relative;
 		overflow: hidden;
 		float: left;
@@ -154,28 +154,49 @@ img {
 		}
 		.jcarousel ul li {
 			float: left;
-			width: 660px;
+			width: 650px;
+			height: 400px;
 		}
 		.jcarousel p {
 			display: inline-block;
+			margin: 0;
 		}
 		.jcarousel-prev {
 			position: absolute;
-			top: 50px; left: 10px;
+			top: 100px; left: 0;
+			height: 60px;
+			width: 40px;
+			background: url(../images/slider_buttons.png) 0 0;
 		}
+			.jcarousel-prev:hover {
+				cursor: pointer;
+				background: url(../images/slider_buttons.png) 0 61px;
+			}
 		.jcarousel-next {
 			position: absolute;
-			top:50px; left: 610px;
+			top:100px; left: 610px;
+			height: 60px;
+			width: 40px;
+			background: url(../images/slider_buttons.png) 40px 0;
 		}
-
-	.jcarousel img {
-		clear: both;
-	}
+			.jcarousel-next:hover {
+				cursor: pointer;
+				background: url(../images/slider_buttons.png) 40px 61px;
+			}
+		.jcarousel img {
+			border-top:5px #da5c00 solid;
+			border-bottom:5px #da5c00 solid;
+			vertical-align: bottom;
+		}
+		.jcarousel a {
+			margin-bottom: 0;
+		}
 
 .container {
 	overflow: hidden;
 	width: 1000px;
 }
+	/* СПИСОК АВТОРОВ */
 	.content {
 		display: block;
 		text-align: center;
@@ -198,8 +219,15 @@ img {
 		width: 280px;
 		height: 280px;
 		border: 10px #da5c00 solid;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
 		border-radius: 50%;
 		overflow: hidden;
+	}
+	.content img {
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
 	}
 	.content .author-head {
 		line-height: 50px;
@@ -212,6 +240,31 @@ img {
 		color: #fff;
 	}
 
+	/* СПИСОК НОВОСТЕЙ */
+	.news_content {
+		display: block;
+		overflow: hidden;
+	}
+	.news_content ul {
+		list-style: none outside none;
+		margin: 0 0 0 -50px;
+		padding: 0;
+		overflow: hidden;
+	}
+	.news_content li {
+		float: left;
+		width: 300px;
+		margin: 0 0 50px 50px;
+		display: inline-block;
+	}
+	.news_content li a {
+		display: block;
+		background-color: #000;
+		width: 300px;
+		height: 250px;
+		overflow: hidden;
+	}
+	
 /* END CONTENT */
 
 /***************************************
