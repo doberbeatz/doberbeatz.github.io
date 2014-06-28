@@ -1,7 +1,8 @@
 $(document).ready(function() {
     $('.jcarousel').jcarousel({
         // Configuration goes here
-        animation: 'slow'
+        animation: 'slow',
+        wrap: 'both'
     });
 
     $('.jcarousel-prev').jcarouselControl({

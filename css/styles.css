@@ -131,10 +131,13 @@ img {
 .banners-wrapper {
 	margin-bottom: 50px;
 	position: relative;
-	height: 430px;
+	height: 400px;
 	overflow-y: hidden;
 
 }
+	.banners-wrapper img {
+		vertical-align: bottom;
+	}
 
 	.jcarousel {
 		width: 650px;
@@ -264,7 +267,7 @@ img {
 		height: 250px;
 		overflow: hidden;
 	}
-	
+
 /* END CONTENT */
 
 /***************************************
