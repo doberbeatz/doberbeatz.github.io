@@ -14,11 +14,11 @@ body, html {
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
-	color: #000000;
+	color: #000;
 	border: none;
 }
 body {
-	font: 14px/1.4 "Book Antiqua", "Palatino Linotype", Palatino, serif;
+	font: 14px/1.2 "Book Antiqua", "Palatino Linotype", Palatino, serif;
 }
 a {
 	outline: none;
@@ -202,6 +202,59 @@ img {
 			margin-bottom: 0;
 		}
 
+.seed_detail-wrapper {
+	margin-bottom: 50px;
+	position: relative;
+	min-height: 400px;
+	width: 650px;
+	overflow-y: hidden;
+}
+	.seed_box {
+		width: 650px;
+		background-color: #da5c00;
+	}
+	.seed_box td {
+		margin: 0;
+		padding: 0;
+	}
+	.seed_img {
+		width: 300px;
+	}
+	.seed_quote {
+		width: 340px;
+		vertical-align: middle;
+		text-align: center;
+		color: #fff;
+		font-size: 30px;
+	}
+	.seed_box img {
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		margin: 10px;
+		vertical-align: top;
+	}
+	.seed_name-wrap {
+		border-bottom: 2px #da5c00 solid;
+	}
+		.seed_name {
+			height: 30px;
+			width: 300px;
+			font-size: 22px;
+			text-align: center;
+		}
+	.seed_bio {
+		padding: 25px 0 50px;
+	}
+		.seed_bio p{
+			text-align: justify;
+			font-size: 22px;
+			text-indent: 50px;
+		}
+		.seed_bio_contacts {
+			font-style: italic;
+			text-align: right;
+		}
 
 .container {
 	overflow: hidden;
@@ -240,7 +293,7 @@ img {
 		-moz-border-radius: 50%;
 		border-radius: 50%;
 	}
-	.content .author-head {
+	.author-head {
 		line-height: 50px;
 		font-size: 25px;
 	}
@@ -286,5 +339,5 @@ img {
 	position: relative;
 	width: 1000px;
 	height: 100px;
-	background-color: #333;
+	border: 1px #333 dashed;
 }
