@@ -23,6 +23,7 @@ body {
 a {
 	outline: none;
 	text-decoration: none;
+	color: #000;
 }
 	a:hover {
 		color: #000;
@@ -34,6 +35,9 @@ a {
 	a:visited {
 		color: #000;
 	}
+img {
+	vertical-align: bottom;
+}
 h3 {
 	margin: 0;
 	font-size: 25px;
@@ -141,8 +145,8 @@ img {
 	float: right;
 	width: 300px;
 }
-	.sidebar img {
-		vertical-align: bottom;
+	.sidebar .side-banner {
+		margin-bottom: 50px;
 	}
 
 /* END SIDEBAR */
@@ -204,14 +208,6 @@ img {
 				cursor: pointer;
 				background: url(../images/slider_buttons.png) 40px 61px;
 			}
-		.jcarousel img {
-			border-top:5px #da5c00 solid;
-			border-bottom:5px #da5c00 solid;
-			vertical-align: bottom;
-		}
-		.jcarousel a {
-			margin-bottom: 0;
-		}
 
 .seed_detail-wrapper {
 	margin-bottom: 50px;
@@ -257,15 +253,16 @@ img {
 	.seed_bio {
 		padding: 25px 0 50px;
 	}
-		.seed_bio p{
-			text-align: justify;
-			font-size: 22px;
-			text-indent: 50px;
-		}
 		.seed_bio_contacts {
 			font-style: italic;
 			text-align: right;
 		}
+
+	.post_text {
+		text-align: justify;
+		font-size: 22px;
+		text-indent: 50px;
+	}
 
 .container {
 	overflow: hidden;
@@ -297,11 +294,6 @@ img {
 		-moz-border-radius: 50%;
 		border-radius: 50%;
 		overflow: hidden;
-	}
-	.content img {
-		-webkit-border-radius: 50%;
-		-moz-border-radius: 50%;
-		border-radius: 50%;
 	}
 	.author-head {
 		line-height: 50px;
@@ -341,7 +333,44 @@ img {
 		overflow: hidden;
 	}
 
-/* END CONTENT */
+	/* END СПИСОК АВТОРОВ */
+
+	/* НОВОСТЬ */
+
+	.post_wrap {
+		display: block;
+		margin: 0 50px 50px 0;
+		width: 650px;
+	}
+	.img_borders {
+		border-top:5px #da5c00 solid;
+		border-bottom:5px #da5c00 solid;
+	}
+	.post_authors {
+		margin-top: 50px;
+		padding-bottom: 50px;
+		border-bottom: 4px #da5c00 solid;
+	}
+		.post_authors_item {
+			margin-top: 20px;
+			line-height: 100px;
+			vertical-align: middle;
+		}
+			.post_authors_item img {
+				width: 93px;
+				height: 93px;
+				border: 3px #da5c00 solid;
+				-webkit-border-radius: 50%;
+				-moz-border-radius: 50%;
+				border-radius: 50%;
+			}
+			.post_authors_item span {
+				margin-left: 10px;
+				font-size: 20px;
+				font-style: italic;
+			}
+
+	/* END НОВОСТЬ */
 
 /***************************************
 * FOOTER
