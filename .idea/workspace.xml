@@ -2,31 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a305409e-31be-421c-b6e6-eb6aa6c92d86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/book_antiqua.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/book_antiqua.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/book_antiqua.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/font/book_antiqua.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/joe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/news_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/news_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/news_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/news_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/news_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/news_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/post_authors.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/post_inner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/post_main.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/right-banner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slider_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slider_buttons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jcarousel.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jcarousel.slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="98" column="89" lean-forward="false" selection-start-line="98" selection-start-column="89" selection-end-line="98" selection-end-column="89" />
+            <state relative-caret-position="450">
+              <caret line="86" column="84" lean-forward="false" selection-start-line="86" selection-start-column="84" selection-end-line="86" selection-end-column="84" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -294,8 +269,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="98" column="89" lean-forward="false" selection-start-line="98" selection-start-column="89" selection-end-line="98" selection-end-column="89" />
+        <state relative-caret-position="450">
+          <caret line="86" column="84" lean-forward="false" selection-start-line="86" selection-start-column="84" selection-end-line="86" selection-end-column="84" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
