@@ -1,0 +1,270 @@
+body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #161616;
+    font-family: 'Cousine';
+    height: 100%;
+    width: 100%;
+}
+
+html,
+body {
+    height: 100%
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    transition: all 0.2s;
+    font-family: "Montserrat", sans-serif;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border: 0 none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.section-padding {
+    padding: 60px 0px;
+}
+
+.section-title {
+    color: #333;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Cousine';
+    font-weight: 700;
+}
+
+.preloader-area {
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+.preloader,
+.preload {
+    background-image: url(../images/Preloader.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    position: absolute;
+    top: 50%;
+    width: 200px;
+}
+
+.scrollup {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    background-color: #333;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    line-height: 40px;
+    cursor: pointer;
+    display: none;
+    box-shadow: 0px 1px 4.7px 0.3px rgba(0, 0, 0, 0.24);
+}
+
+.scrollup:hover {
+    box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 02.HEADER AREA CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+.header-area {
+    background: url(../images/bg.jpg) no-repeat scroll 0 0 / cover;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    background-position: center center;
+}
+
+.header-area:before {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+
+.header-area-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.header-area-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header-text {
+    color: #fff;
+}
+
+.header-text h1 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.cd-headline span {
+    font-size: 18px;
+}
+
+.cd-headline.clip.is-full-width {
+    margin: 0;
+}
+
+.cd-headline.clip.is-full-width span {
+    margin: 0;
+}
+
+.cd-headline.clip b {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    font-weight: 300;
+}
+
+.social-link {
+    margin-top: 20px;
+}
+
+.header-text h3 {
+    margin: 10px 0px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+
+.social-link {
+}
+
+.social-link a {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    color: #333;
+    background: #fff;
+    line-height: 45px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    box-shadow: 0 1px 4.7px 0.3px rgba(0, 0, 0, 0.24);
+}
+
+.social-link a i {
+    font-size: 20px;
+    line-height: 45px;
+}
+
+/*
+* ----------------------------------------------------------------------------------------
+* 04.ABOUT AREA CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+.about-me-area {
+    background: #fff;
+}
+
+.about-me-text h2 {
+    margin-bottom: 20px;
+}
+
+.about-me-text p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+a.about-button {
+    display: inline-block;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 40px;
+    width: 180px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.footer-area {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.footer-area p {
+    margin: 0;
+}
