@@ -191,6 +191,8 @@ fieldset {
 
 .social-link {
     margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .header-text h3 {
@@ -201,28 +203,23 @@ fieldset {
     letter-spacing: 10px;
 }
 
-.social-link {
-}
-
 .social-link a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 40px;
     width: 40px;
     margin-bottom: 10px;
-    text-align: center;
+    margin-right: 10px;
     color: #333;
     background: #fff;
-    line-height: 40px;
     border-radius: 50%;
-    display: inline-block;
-    margin-right: 5px;
     box-shadow: 0 1px 4.7px 0.3px rgba(0, 0, 0, 0.24);
 }
 
 .social-link a i {
-    display: inline-block;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
+    align-self: center;
+    font-size: 20px;
 }
 
 /*
@@ -232,16 +229,13 @@ fieldset {
 */
 
 a.about-button {
-    display: inline-block;
+    width: 180px;
     background: none !important;
     color: #fff;
     text-transform: uppercase;
     border: 1px solid;
     border-radius: 60px;
-    width: 180px;
-    text-align: center;
     font-size: 12px;
-    line-height: 40px;
     margin-right: 5px;
     -webkit-transition: .4s;
     transition: .4s;
